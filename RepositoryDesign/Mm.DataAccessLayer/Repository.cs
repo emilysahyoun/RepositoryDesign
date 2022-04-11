@@ -68,7 +68,7 @@
         }
         public void Dispose()
         {
-            thrw new NotImplementedExceptiom();
+            throw new NotImplementedException();
         }
     }
 }
