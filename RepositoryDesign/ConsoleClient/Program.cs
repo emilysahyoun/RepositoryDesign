@@ -309,15 +309,38 @@ namespace ConsoleClient
                 if (course != null)
                 {  //Update the course
                     //Your code
-                    Console.WriteLine("Change this course's name to: ");
-                    course.CourseName = Console.ReadLine();
-                    course.EntityState = EntityState.Modified;
-                    businessLayer.UpdateCourse(course);
-                }
+                    Console.WriteLine("Select: ");
+                    Console.WriteLine("1- Change name of course");
+                    Console.WriteLine("2- Reassign course to a teacher ");
+                    string choice = Console.ReadLine();
+                    if(choice == "1")
+                    {
+                        Console.WriteLine("Change name to: ");
+                        course.CourseName = Console.ReadLine();
+                        course.EntityState = EntityState.Modified;
+                        businessLayer.UpdateCourse(course);
+                    }
+                    if(choice == "2")
+                    {
+                        Console.WriteLine("Assign this course to: ");
+                         string newName = Console.ReadLine();
+                         Teacher assignT = businessLayer.GetTeacherByName(newName);
+                        Teacher oldT = course.Teacher;
+                        oldT.Courses.Remove(course);
+                        businessLayer.UpdateTeacher(oldT);
+                        course.Teacher = assignT;
+                        course.TeacherId = assignT.TeacherId;
+                        assignT.Courses.Add(course);
+                        businessLayer.UpdateTeacher(assignT);
+                        course.EntityState = EntityState.Modified;
+                        businessLayer.UpdateCourse(course);
+                                            
+                    }
+                    }
                 else
                 {
                     Console.WriteLine("Course does not exist.");
-                };
+                }
             }
         }
 
