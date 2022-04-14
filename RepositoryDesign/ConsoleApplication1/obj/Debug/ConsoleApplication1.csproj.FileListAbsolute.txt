@@ -1,0 +1,8 @@
+C:\Users\emily\OneDrive\Documents\GitHub\RepositoryDesignn\RepositoryDesign\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\emily\OneDrive\Documents\GitHub\RepositoryDesignn\RepositoryDesign\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\emily\OneDrive\Documents\GitHub\RepositoryDesignn\RepositoryDesign\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\emily\OneDrive\Documents\GitHub\RepositoryDesignn\RepositoryDesign\ConsoleApplication1\obj\Debug\ConsoleApplication1.csproj.AssemblyReference.cache
+C:\Users\emily\OneDrive\Documents\GitHub\RepositoryDesignn\RepositoryDesign\ConsoleApplication1\obj\Debug\ConsoleApplication1.csproj.SuggestedBindingRedirects.cache
+C:\Users\emily\OneDrive\Documents\GitHub\RepositoryDesignn\RepositoryDesign\ConsoleApplication1\obj\Debug\ConsoleApplication1.csproj.CoreCompileInputs.cache
+C:\Users\emily\OneDrive\Documents\GitHub\RepositoryDesignn\RepositoryDesign\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\emily\OneDrive\Documents\GitHub\RepositoryDesignn\RepositoryDesign\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
